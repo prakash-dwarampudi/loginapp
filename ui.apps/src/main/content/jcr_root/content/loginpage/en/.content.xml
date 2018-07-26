@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:rep="internal"
+    granite:loginPath="/content/loginpage/login"
+    jcr:mixinTypes="[granite:AuthenticationRequired,rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2018-07-25T19:02:43.025+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2018-07-25T19:02:50.378+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/loginapp/templates/homepage"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="en"
+        jcr:uuid="bf827bfd-6176-497a-a7d0-fdaebfac068e"
+        sling:resourceType="loginapp/components/page/homepage"
+        homePagePath="/content/loginpage/en/home"
+        redirectTarget="/content/loginpage/login"/>
+    <home/>
+    <rep:policy/>
+</jcr:root>

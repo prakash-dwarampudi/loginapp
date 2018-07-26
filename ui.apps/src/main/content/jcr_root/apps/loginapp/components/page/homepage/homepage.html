@@ -1,0 +1,7 @@
+Home Page
+
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientlib.all @ categories='apps.loginapp.logout'}"/>
+
+<div data-sly-resource="${'user' @resourceType='loginapp/components/content/loggedinuser'}"/></div>
+
+<a id="logout" href="#"> Logout </a>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/loginapp"/>
+    <filter root="/etc/clientlibs/boot-foundation" />
+    <filter root="/etc/clientlibs/loginapp" />
+    <filter root="/content/loginpage"/>
+</workspaceFilter>

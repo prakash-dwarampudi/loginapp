@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-07-25T15:49:20.892+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2018-07-25T15:57:52.343+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/loginapp/templates/homepage"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="loginpage"
+        jcr:uuid="9ab11e7f-c332-4a94-9f93-974e78cab9e3"
+        sling:resourceType="loginapp/components/page/homepage"/>
+    <en/>
+    <login/>
+    <rep:policy/>
+</jcr:root>
