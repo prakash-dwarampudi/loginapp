@@ -1,0 +1,4 @@
+/geogov
+/community
+/geohome
+/products
